@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(const MyApp());
 }
-
+//Cambios realizados por mi joseCapdesis en el proyecto open source
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.red),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Curso Git & GitHub'),
+      home: const MyHomePage(title: 'Curso de joseCapdesis'),
     );
   }
 }
@@ -38,7 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void _incrementCounter() {
     setState(() {
 
-      _counter+=2;
+      _counter++;
     });
   }
 
@@ -69,7 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
-        tooltip: 'sumar',
+        tooltip: 'incrementar',
         child: const Icon(Icons.add),
       ),
     );
